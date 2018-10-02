@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Modals</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#pendaftaran">
+        Launch
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="pendaftaran" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modelTitleId">Pendaftaran Mahasiswa</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nim">NIM</label>
+                            <input type="number" name="nim" id="nim" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" name="nama" id="nama" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat</label>
+                            <textarea name="alamat" id="" cols="10" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="pendidikan">Pendidikan</label>
+                            <select name="pendidikan" id="pendidikan" cols="10" rows="5" class="form-control">
+                                <option value="sd">SD</option>
+                                <option value="smp">SMP</option>
+                                <option value="smk">SMK</option>
+                                <option value="sma">SMA</option>
+                                <option value="sarjana">Sarjana</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="jk">Jenis Kelamin</label>
+                            <div class="form-check">
+                                <input type="radio" name="jk" id="jk" class="form-check-input" value="laki-laki">
+                                <label for="laki-laki" class="form-check-label">Laki-Laki</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="jk" id="jk" class="form-check-input" value="perempuan">
+                                <label for="perempuan" class="form-check-label">Perempuan</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="hobi">Hobi</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="hobi" id="hobi" class="form-check-input">
+                                <label for="ngoding" class="form-check-label">Ngoding</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hobi" id="hobi" class="form-check-input">
+                                <label for="ngopi" class="form-check-label">Ngopi</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hobi" id="hobi" class="form-check-input">
+                                <label for="nguli" class="form-check-label">Nguli</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hobi" id="hobi" class="form-check-input">
+                                <label for="ngimpi" class="form-check-label">Ngimpi</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

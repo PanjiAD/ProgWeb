@@ -1,0 +1,290 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 400 15px 'Lato';
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font: Lato;
+}
+
+/* Sosial Media */
+
+#nav-sosmed{
+    position: fixed;
+    height: 100vh;
+    left: 0px;
+    width: 40px;
+    background-color: #f1f1f1;
+    z-index: 999;
+    transition: 0.5s;
+}
+
+#nav-sosmed:hover{
+    width: 60px;
+    transition: 0.5s;
+}
+
+#nav-sosmed #ul-sosmed{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-sosmed #ul-sosmed:first-child{
+    margin-top: 200px;
+}
+
+#nav-sosmed #ul-sosmed li{
+    padding-bottom: 30px;
+}
+
+#nav-sosmed #ul-sosmed li a{
+    color: rgb(165, 165, 165);
+}
+
+#nav-sosmed #ul-sosmed li a:hover{
+    color: rgb(78, 78, 78);
+}
+
+#nav-sosmed li i{
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+/* Header */
+
+.bg-header{
+    background : url(../gambar/Coffee-Cup-Images-Wallpapers-008.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+    outline: none;
+}
+
+.bg-gray{
+    background-color: rgba(0, 0, 0, 0.500);
+    min-height: 630px;
+}
+
+.banner-text{
+    padding: 5px 55px;
+    color: white;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.banner-text img{
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+.banner-text .sumber{
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.banner-text .sumber .border-top{
+    padding: 7px;
+}
+
+.banner-text h2, .banner-text p{
+    font: 400 40px Lato;
+    font-style: hirelie;
+}
+
+.decorate{
+    font-family: elegante; 
+}
+
+.dekorasi{
+    font-family: Abecedario;
+}
+
+.scroll-bottom a p{
+    text-align: center;
+    position: absolute;
+    bottom: -140px;
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+/* Page Two */
+
+/* .foto0{
+}
+
+.foto1{
+    background: url("../gambar/DSC_12482.JPG"));
+    width: 350px;
+    height: 350px;
+    top:100px;
+    left: 120px;
+    border:white solid 10px;
+}
+.foto2{
+    background: url("../gambar/bromo.jpg"));
+    width: 350px;
+    height: 350px;
+    top:100px;
+    left: 120px;
+    border:white solid 10px;
+}
+.foto3{
+    background: url("../gambar/apple-mac-logo-FB34556F8D-seeklogo.com.png"));
+    width: 350px;
+    height: 350px;
+    top:100px;
+    left: 120px;
+    border:white solid 10px;
+} */
+
+#page-two{
+    height: 100vh;
+    background-color: azure; 
+}
+
+/* About Me Section */
+
+#namaDiv #nama{
+    position: static;
+    height: 40px;
+}
+
+.about-text p{
+    font-family: Lato;
+    font-style: light;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.about-text .description{
+    padding: 25px;
+}
+
+.signature img{
+    border-top: #8b8b8b solid 2px;
+    margin-top: 25px;
+    size: 100%;
+}
+
+  /* Experience Section */
+
+#pills-experience{
+    width: 100%;
+}
+
+#pills-experience .listExp{
+    height: 78%;
+    overflow-y: scroll;
+}
+
+.activity{
+    margin: 20px;
+}
+  
+.activity .logo img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.activity .logo{
+    margin: auto;
+}
+
+.activity .lembaga{
+    /* border-left: #a8a8a8 solid 2px; */
+    line-height: 1.5;
+    position: static;
+    border-bottom:  #c5c5c5 solid 1px;
+}
+
+.activity .masaJabatan{
+    position: static;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+  /* Education Section */
+
+  #pills-education{
+      /* height: 100vh; */
+      width: 100%;
+  }
+
+  #pills-education .listEdu{
+      height: 78%;
+      overflow-y: scroll;
+  }
+
+ .card:not(:last-child){
+     margin-bottom: 20px;
+  }
+
+  .card .card-body .logo img{
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      padding: 0px;
+  }
+
+  .card .card-body .logo{
+    border-right: #a8a8a8 solid 2px;
+}
+
+  .card .card-body .tahunStudy{
+    position: static;
+    margin: auto;
+    font-size: 20px;
+  }
+
+/* Skill Section */
+
+#skill{
+    
+}
+
+/* Interest Section */
+
+.about-text p{
+    font-family: Lato;
+    font-style: light;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.about-text .description{
+    padding: 25px;
+}
+
+/* pills-tab */
+
+#pills-tab{
+    position: absolute;
+    bottom: 0;
+
+}
+
+ 

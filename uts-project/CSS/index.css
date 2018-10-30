@@ -1,0 +1,400 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 400 15px 'Lato';
+    letter-spacing: 0.5px;
+    color: #222222;
+    overflow-x: hidden;
+}
+
+/* Sosial Media */
+
+#nav-sosmed{
+    position: fixed;
+    height: 100vh;
+    left: 0px;
+    width: 40px;
+    background-color: #f1f1f1;
+    z-index: 999;
+    transition: 0.5s;
+}
+
+#nav-sosmed:hover{
+    width: 60px;
+    transition: 0.5s;
+}
+
+#nav-sosmed #ul-sosmed{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-sosmed #ul-sosmed:first-child{
+    margin-top: 200px;
+}
+
+#nav-sosmed #ul-sosmed li{
+    padding-bottom: 30px;
+}
+
+#nav-sosmed #ul-sosmed li a{
+    color: rgb(165, 165, 165);
+}
+
+#nav-sosmed #ul-sosmed li a:hover{
+    color: rgb(78, 78, 78);
+}
+
+#nav-sosmed li i{
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+/* Header */
+
+.bg-header{
+    background : url(../gambar/Coffee-Cup-Images-Wallpapers-008.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+    outline: none;
+    height: 100vh;
+}
+
+.bg-gray{
+    background-color: rgba(0, 0, 0, 0.500);
+    min-height: 630px;
+    height: 100vh;
+}
+
+.banner-text{
+    padding: 5px 55px;
+    color: white;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+
+.banner-text img{
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+.banner-text .sumber{
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.banner-text .sumber .border-top{
+    padding: 7px;
+}
+
+.banner-text h2, .banner-text p{
+    font: 400 40px Lato;
+    font-style: hirelie;
+}
+
+.scroll-bottom a p{
+    text-align: center;
+    position: absolute;
+    bottom: -140px;
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+/* Page Two */
+.title{
+    margin-top: 10px;
+    font-family: 'forgotten futurist';
+    font-style: unset;
+    font-size: 3em;
+}
+/* --------------------------------- */
+
+#fotoCont{
+    position: relative;
+}
+
+#gambar{    
+    position: absolute;
+    margin-left: 25px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #c8beaa;
+    z-index: 999;
+    transition: 0.3s;
+}
+
+#gambar i{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+#gambar ul{
+    /* display: none; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gambar ul li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+    font-family: 'Lato';
+}
+
+#gambar ul li:hover{
+    background-color: #535353;
+    color: #e7e7e7;
+    cursor: pointer;
+    display: block;
+}
+
+#gambar:hover{
+    width: 100%;
+}
+
+/* ------------------------------------ */
+
+.foto1{
+    background: url("../gambar/DSC_12482.JPG");
+    width: 548px;
+    background-size:103%;
+    height: 100vh;
+}
+.foto2{
+    background: url("../gambar/IMG20170430111441.jpg");
+    width: 548px;
+    background-size:108%;
+    height: 100vh;
+}
+.foto3{
+    background: url("../gambar/seminar.png");
+    width: 548px;
+    background-size:102%;
+    height: 100vh;
+}
+
+#page-two{
+    height: 100vh;
+    background-color: rgb(230, 230, 230); 
+}
+
+/* About Me Section */
+
+#namaDiv #nama{
+    position: static;
+    height: 40px;
+}
+
+.about-text p{
+    font-family: Lato;
+    font-style: light;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.about-text .description{
+    padding: 25px;
+}
+
+.signature img{
+    border-top: #8b8b8b solid 2px;
+    margin-top: 15px;
+    size: 90%;
+}
+
+  /* Experience Section */
+
+#pills-experience{
+    width: 100%;
+}
+
+#pills-experience .listExp{
+    height: 77%;
+    overflow-y: scroll;
+}
+
+.activity{
+    margin-bottom: 20px;
+}
+  
+.activity .logo img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.activity .logo{
+    margin: auto;
+}
+
+.activity .lembaga{
+    /* border-left: #a8a8a8 solid 2px; */
+    line-height: 1.5;
+    position: static;
+    border-bottom:  #c5c5c5 solid 1px;
+}
+
+.activity .masaJabatan{
+    position: static;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+  /* Education Section */
+
+  #pills-education{
+      width: 100%;
+  }
+
+  #pills-education .listEdu{
+      height: 75%;
+      overflow-y: scroll;
+  }
+
+ .card:not(:last-child){
+     margin-bottom:5px;
+     margin-top: 5px;
+  }
+
+  .card .card-body .logo img{
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      padding: 0px;
+  }
+
+  .card .card-body .logo{
+    border-right: #a8a8a8 solid 2px;
+}
+
+  .card .card-body .tahunStudy{
+    position: static;
+    margin: auto;
+    font-size: 20px;
+  }
+
+/* Skill Section */
+
+#pills-skill{
+    margin-left: 30px;
+    width: 100%;
+}
+
+#pills-skill .listSkill{
+    height:35%;
+    overflow-y: scroll;
+}
+
+.jenisSkill{
+    margin-bottom:10px;
+}
+
+  .sisi-kiri .namaSkill{
+      font-family: dyuthi;
+      font-size:30px;
+  }
+
+  .sisi-kiri p{
+    font: 14px Lato;
+    font-style: hirelie;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    margin-right: 20px;
+  }
+  .sisi-kanan .overlay img{
+      display: block;
+      /* width: 70%; */
+      margin: auto;
+    }
+
+  .sisi-kanan .namaSkill{
+      font-family: dyuthi;
+      font-size:30px;
+  }
+
+  .sisi-kanan p{
+    font: 14px Lato;
+    font-style: hirelie;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    margin-right: 20px;
+  }
+  .sisi-kiri .overlay img{
+      display: block;
+      width: 65%;
+      margin: auto;
+    }
+
+/* Interest Section */
+
+.about-text p{
+    font-family: Lato;
+    font-style: light;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.about-text .description{
+    padding: 25px;
+}
+
+/* pills-tab */
+
+#pills-tab{
+    position: absolute;
+    bottom: 0;
+
+}
+
+ /* Navigation */
+
+ .nav-pills{
+     position: relative;
+     margin-top: 100px;
+     z-index: 999;
+ }
+
+.nav-link{
+    position: static;
+     margin-left: 10px;
+     color: #1b1b1b;
+     transition: 0.3s ease;
+     font-weight: 600;
+ }
+
+ .nav-link:hover{
+     color: rgb(29, 29, 29);
+     background-color: rgb(202, 217, 228);
+     transition: 0.3s ease;
+     position: static;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .nav-link.active{
+    font-weight: 1000;
+ }
